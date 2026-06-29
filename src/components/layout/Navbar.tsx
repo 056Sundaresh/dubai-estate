@@ -26,11 +26,11 @@ export function Navbar() {
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-8">
-              <Link href="/properties?type=Buy" className="text-sm font-medium text-white/90 hover:text-white transition-colors">Buy</Link>
-              <Link href="/properties?type=Rent" className="text-sm font-medium text-white/90 hover:text-white transition-colors">Rent</Link>
-              <Link href="/projects" className="text-sm font-medium text-white/90 hover:text-white transition-colors">New Projects</Link>
-              <Link href="/communities" className="text-sm font-medium text-white/90 hover:text-white transition-colors">Communities</Link>
-              <Link href="/agents" className="text-sm font-medium text-white/90 hover:text-white transition-colors">Agents</Link>
+              <Link href="/properties?type=Buy" className="text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors">Buy</Link>
+              <Link href="/properties?type=Rent" className="text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors">Rent</Link>
+              <Link href="/projects" className="text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors">New Projects</Link>
+              <Link href="/communities" className="text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors">Communities</Link>
+              <Link href="/agents" className="text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors">Agents</Link>
             </div>
           </div>
 
